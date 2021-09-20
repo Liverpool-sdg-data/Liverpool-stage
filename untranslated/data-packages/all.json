@@ -293,7 +293,7 @@
             "type": "integer"
           },
           {
-            "name": "Units",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
@@ -403,7 +403,7 @@
             "type": "string"
           },
           {
-            "name": "Units",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
@@ -499,7 +499,7 @@
           }
         ]
       },
-      "title": "Ratio of land consumption rate to population growth rate"
+      "title": "11-3-1"
     },
     {
       "path": "3-a-1/data.csv",
@@ -1211,7 +1211,7 @@
             "type": "integer"
           },
           {
-            "name": "Units",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
@@ -1592,7 +1592,7 @@
             "type": "integer"
           },
           {
-            "name": "Units",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
@@ -2186,7 +2186,7 @@
             "type": "string"
           },
           {
-            "name": "Units",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [

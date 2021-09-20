@@ -316,7 +316,7 @@
       "schema": {
         "fields": [
           {
-            "name": "Units",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
@@ -325,7 +325,7 @@
                 "Work (%)"
               ]
             },
-            "title": "Units"
+            "title": "Series"
           },
           {
             "name": "Value",
@@ -436,7 +436,7 @@
       "schema": {
         "fields": [
           {
-            "name": "Units",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
@@ -446,7 +446,7 @@
                 "Alcohol-related mortality"
               ]
             },
-            "title": "Units"
+            "title": "Series"
           },
           {
             "name": "Value",
@@ -548,7 +548,7 @@
           }
         ]
       },
-      "title": "Ratio of land consumption rate to population growth rate"
+      "title": "11-3-1"
     },
     {
       "path": "3-a-1/data.csv",
@@ -1323,7 +1323,7 @@
       "schema": {
         "fields": [
           {
-            "name": "Units",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
@@ -1333,7 +1333,7 @@
                 "Employment activities; tourism and security services"
               ]
             },
-            "title": "Units"
+            "title": "Series"
           },
           {
             "name": "Value",
@@ -1732,6 +1732,18 @@
       "schema": {
         "fields": [
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Private Sector",
+                "Public Sector"
+              ]
+            },
+            "title": "Series"
+          },
+          {
             "name": "Sex",
             "type": "string",
             "constraints": {
@@ -1742,18 +1754,6 @@
               ]
             },
             "title": "Sex"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Private Sector",
-                "Public Sector"
-              ]
-            },
-            "title": "Units"
           },
           {
             "name": "Value",
@@ -2382,7 +2382,7 @@
       "schema": {
         "fields": [
           {
-            "name": "Units",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
@@ -2391,7 +2391,7 @@
                 "Rate of reported non-fatal injuries"
               ]
             },
-            "title": "Units"
+            "title": "Series"
           },
           {
             "name": "Value",

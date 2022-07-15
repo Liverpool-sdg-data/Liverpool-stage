@@ -11,13 +11,24 @@
       "schema": {
         "fields": [
           {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Rate per 100 population"
+              ]
+            },
+            "title": "Units"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]
@@ -26,5 +37,5 @@
   ],
   "profile": "data-package",
   "name": "17-6-1",
-  "title": "Fixed Internet broadband subscriptions per 100 inhabitants, by speed"
+  "title": "Fixed Internet broadband subscriptions per 100 inhabitants (any speed)"
 }
